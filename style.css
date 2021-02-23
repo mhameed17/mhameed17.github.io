@@ -1,0 +1,131 @@
+
+body{
+  background-color: white;
+
+}
+
+
+header{
+  background-color: white;
+
+}
+
+header h2{
+  margin: 0;
+  padding-left: 4px;
+  padding-topt: 20px;
+  padding-bottom: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+background-color: orange;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 10px 40px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+  background-color: gray;
+}
+.youtube-video{
+  margin-top: 10px;
+  padding-left: 4px;
+  padding-topt: 20px;
+  padding-bottom: 20px;
+  width: 1100px;
+}
+
+
+
+footer{
+  background-color: white;
+  padding: 40px;
+
+}
+
+footer p{
+  margin: 0;
+}
+
+.menu{
+  hight: 200;
+  width: 200;
+  margin: auto;
+}
+
+
+
+
+#Container{
+  width: 1100px;
+
+  margin: 0 auto;
+  background-color: white;
+
+}
+
+  #big-pic{
+    width:400px;
+  }
+
+  .two-column{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 20px;
+    padding: 40px;
+    background-color: white;
+  }
+
+  .two-column div{
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 20px;
+  }
+  #Band{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 20px;
+  }
+
+  .three-column{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    padding-right: 20px;
+    background-color: white;
+  }
+
+  .three-column div{
+    background-color: white;
+    margin-left: 0px;
+    margin-right: 0px;
+
+  }
+  .one-column{
+    width: 1400;
+
+
+  }
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
