@@ -9,12 +9,13 @@ header{
   background-color: white;
 
 }
+logo
 
 header h2{
   margin: 0;
   padding-left: 4px;
-  padding-topt: 20px;
-  padding-bottom: 20px;
+  padding-topt: 0px;
+  padding-bottom: 0px;
 }
 
 nav ul {
@@ -52,19 +53,30 @@ nav li a:hover {
 
 
 footer{
-  background-color: white;
-  padding: 40px;
+  background-color: ;
+  padding: px;
+  height: 200px;
 
 }
 
 footer p{
   margin: 0;
+
 }
 
 .menu{
-  hight: 200;
-  width: 200;
-  margin: auto;
+  hight: 200px;
+  width: 200px;
+
+
+}
+.fa {
+  padding: ;
+  font-size: 50px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 50px;
 }
 
 
@@ -74,19 +86,23 @@ footer p{
   width: 1100px;
 
   margin: 0 auto;
-  background-color: white;
+  background-color: ;
 
 }
 
   #big-pic{
-    width:400px;
+    width: 450px;
+    height: 400px;
+
+    position: center;
+    padding: 20px;
   }
 
   .two-column{
-    display: grid;
+    display: grid
     grid-template-columns: 50% 50%;
-    grid-gap: 20px;
-    padding: 40px;
+    grid-gap: 20px
+    padding: 40px
     background-color: white;
   }
 
@@ -105,27 +121,21 @@ footer p{
   .three-column{
     display: grid;
     grid-template-columns: 33% 33% 33%;
-    padding-right: 20px;
-    background-color: white;
+    padding-right: 0px;
+    height: 100px;
+    background-color: ;
+
+
   }
 
   .three-column div{
-    background-color: white;
-    margin-left: 0px;
-    margin-right: 0px;
+    background-color: ;
+    margin-left: 30px;
+    margin-right: 30px;
 
   }
   .one-column{
     width: 1400;
 
 
-  }
-
-  .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
   }
